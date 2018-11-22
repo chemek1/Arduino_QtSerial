@@ -19,14 +19,9 @@ void loop() {
     } 
     if(BYTE == '0') {
       digitalWrite(13,LOW);
-      Serial.write('b');
-      
+      Serial.write('b');   
     }
-    
-
-
-
-    
+   
   }
 
 }
